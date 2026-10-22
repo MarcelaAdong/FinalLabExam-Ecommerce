@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ecommerce Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/css.css">
+  </head>
+  <body>
+    <main>
+
+<!-- START OF NAVIGATION -->
+<section id="home">
+    <nav class="navbar navbar-expand-lg bakery-navbar">
+        <div class="container">
+
+            <a class="navbar-brand bakery-brand" href="index.html">
+                <img src="images/Sweet Cravings Bakery LOGO.png"
+                     alt="Sweet Cravings Bakery Logo">
+                <span>Sweet Cravings Bakery</span>
+            </a>
+
+            <a href="#TopProducts">Top Products</a>
+            <a href="#contactinfo">Contact Information</a>
+            <a href="#services">Services</a>
+
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search"
+                       placeholder="Search" aria-label="Search">
+            </form>
+
+            <!-- INSERT THE HAMBURGER MENU HERE -->
+            <div class="extra-menu">
+                <input type="checkbox" id="extra-menu-toggle">
+
+                <label for="extra-menu-toggle" class="extra-menu-icon"
+                       aria-label="Open additional pages menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <div class="extra-menu-links">
+                    <a href="product.html">Our Offered Products</a>
+                    <a href="contact.html">Contact Us</a>
+                    
+                </div>
+            </div>
+
+        </div>
+    </nav>
+</section>
+<!-- END OF NAVIGATION -->
+
+<!-- START OF CAROUSEL -->
+<section class="bakery-carousel-section">
+
+    <div id="cakeCarousel" class="carousel slide">
+
+        <!-- Slide Indicators -->
+        <div class="carousel-indicators">
+            <button type="button"
+                    data-bs-target="#cakeCarousel"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1">
+            </button>
+
+            <button type="button"
+                    data-bs-target="#cakeCarousel"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2">
+            </button>
+        </div>
+
+        <!-- Carousel Slides -->
+        <div class="carousel-inner">
+
+            <div class="carousel-item active">
+                <div class="cake-gallery">
+
+                    <img src="images/strawberry  cake.jpg"
+                         alt="Strawberry Cake">
+
+                    <img src="images/Ensaymada.jpg"
+                         alt="Ensaymada">
+
+                    <img src="images/Red Velvet  Cake.jpg"
+                         alt="Red Velvet Cake">
+
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <div class="cake-gallery">
+
+                    <img src="images/10.jpg"
+                         alt="Cake 4">
+
+                    <img src="images/11.jpg"
+                         alt="Cake 5">
+
+                    <img src="images/12.jpg"
+                         alt="Cake 6">
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev"
+                type="button"
+                data-bs-target="#cakeCarousel"
+                data-bs-slide="prev">
+
+            <span class="carousel-control-prev-icon"
+                  aria-hidden="true"></span>
+
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next"
+                type="button"
+                data-bs-target="#cakeCarousel"
+                data-bs-slide="next">
+
+            <span class="carousel-control-next-icon"
+                  aria-hidden="true"></span>
+
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+
+    <hr>
+
+</section>
+<!-- END OF CAROUSEL -->
+
+        <!-- BACKGROUND images -->
+        <section class="background">
+            <div class="hero-content">
+
+                <div class="bakery-message">
+                    <h1>Treat Yourself to Something Wonderful</h1>
+                    <p>Because every day deserves a little sweetness.</p>
+                </div>
+           
+            </div>
+        </section>
+
+
+<!-- START OF TOP BAKERY -->
+        <section class="product" id="TopProducts">
+        <div class="container py-5">
+            <div class="row justify-content-center py-4">
+                <div class="col-lg-5 text-center">
+                    <h1>Top Bakery Products</h1>
+                    <p>Discover our delicious cakes, desserts, and freshly baked bread.</p>
+                </div>
+            </div>
+        </div>
+
+            <div class="product-column">
+                <h3 class="category-title">🎂 Cakes</h3>
+
+                <div class="card-container">
+                    <div class="card">
+                        <img src="images/strawberry  cake.jpg" alt="Strawberry Cake">
+                        <div class="card-body">
+                            <h5 class="card-title">Strawberry Cake</h5>
+                            <h3>₱500.00</h3>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/chocolate cake.jpg" alt="Chocolate Cake">
+                        <div class="card-body">
+                            <h5 class="card-title">Chocolate Cake</h5>
+                            <h3>₱600.00</h3>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/Red Velvet  Cake.jpg" alt="Red Velvet Cake">
+                        <div class="card-body">
+                            <h5 class="card-title">Red Velvet Cake</h5>
+                            <h3>₱500.00</h3>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-column">
+                <h3 class="category-title">🍰 Desserts</h3>
+
+                <div class="card-container">
+                    <div class="card">
+                        <img src="images/Chocolate brownies.jpg" alt="Chocolate Brownies">
+                        <div class="card-body">
+                            <h5 class="card-title">Chocolate Brownies</h5>
+                            <h3>₱60.00</h3>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/leche flan.jpg" alt="Leche Flan">
+                        <div class="card-body">
+                            <h5 class="card-title">Leche Flan</h5>
+                            <h3>₱120.00</h3>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/Chocolate Chip Cookies.jpg" alt="Chocolate Chip Cookies">
+                        <div class="card-body">
+                            <h5 class="card-title">Chocolate Cookies</h5>
+                            <h3>₱55.00</h3>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-column">
+                <h3 class="category-title">🍞 Bread</h3>
+
+                <div class="card-container">
+                    <div class="card">
+                        <img src="images/Ensaymada.jpg" alt="Ensaymada">
+                        <div class="card-body">
+                            <h5 class="card-title">Ensaymada</h5>
+                            <h3>₱45.00</h3>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/Garlic Bread.jpg" alt="Garlic Bread">
+                        <div class="card-body">
+                            <h5 class="card-title">Garlic Bread</h5>
+                            <h3>₱50.00</h3>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="images/ube cheese pandesal.jpg" alt="Ube Cheese Pandesal">
+                        <div class="card-body">
+                            <h5 class="card-title">Ube Cheese Pandesal</h5>
+                            <h3>₱15.00</h3>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!-- END OF TOP BAKERY -->
+                <hr>
+        
+<!-- START OF SERVICES -->
+        <section class="services" id="services">
+            <h1>Services Offered</h1>
+            <p class="services-subtitle">
+                Making your special moments sweeter, one treat at a time.
+            </p>
+
+            <ul class="services-list">
+                <li>🎂 Customized Cakes</li>
+                <li>🛒 Online Ordering</li>
+                <li>🚚 Delivery Service</li>
+                <li>🎉 Event and Party Packages</li>
+                <li>🍞 Freshly Baked Bread</li>
+                <li>🍰 Cakes and Desserts</li>
+                <li>📦 Pre-Orders</li>
+                <li>☕ Coffee and Pastry Pairings</li>
+                <li>🎈 Birthday and Wedding Cakes</li>
+            </ul>
+        </section>
+<!-- END OF SERVICES -->
+
+
+<!-- START OF FOOTER -->
+        <section id="contactinfo">
+        <footer class="bakery-footer" id="contact">
+            <div class="footer-container">
+
+                <!-- ABOUT -->
+                <div class="footer-column">
+                    <h3>Sweet Cravings Bakery</h3>
+                   
+                    <p>Freshly baked products.</p>
+                    <p>Making your special moments sweeter with our delicious cakes, breads, and desserts.</p>
+                    
+                </div>
+
+                <!-- CONTACT INFORMATION -->
+                <div class="footer-column">
+                    <h3>Contact Information</h3>
+                    <p>📍 Address: Bontoc</p>
+                    <p>📞 Phone: 092-2535-2536</p>
+                    <p>✉️ Email: sweetcravingsbakery@email.com</p>
+                </div>
+
+                <!-- OPENING HOURS -->
+                <div class="footer-column">
+                    <h3>Opening Hours</h3>
+                    <p>Monday – Friday: 8:00 AM – 6:00 PM</p>
+                    <p>Saturday: 8:00 AM – 7:00 PM</p>
+                    <p>Sunday: 9:00 AM – 5:00 PM</p>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; 2026 Sweet Cravings Bakery.
+                    All Rights Reserved.
+                </p>
+                <p>Made with ❤️ and freshly baked goodness.</p>
+            </div>
+        </footer>
+        </section>
+<!-- END OF FOOTER -->
+
+
+        </section>
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+</html>
